@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Zombified</title>
+    <style>
+      #gameCanvas{
+        box-shadow: 10px 10px 20px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: 'VT323', monospace;
+        font-size: 50px;
+        color: #eafc4b
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          black 0%,
+          hsl(300, 88%, 27%) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>ZOMBIFIED</h1>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="scripts/game.js" type="module"></script>
+  </body>
+  </html>
