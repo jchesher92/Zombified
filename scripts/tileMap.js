@@ -1,5 +1,5 @@
 import Jeff from './jeff.js'
-import Zombie from './zombie.js'
+import Zombie from './zombies.js'
 import movingDirection from './movingDirection.js'
 
 export default class TileMap {
